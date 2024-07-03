@@ -118,17 +118,20 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
+#___
+get-pip.py
+
 # SageMath parsed files
 *.sage.py
 
 # Environments
 .env
-.venv
+.testvenv
 env/
-venv/
+testvenv/
 ENV/
 env.bak/
-venv.bak/
+testvenv.bak/
 
 # Spyder project settings
 .spyderproject
