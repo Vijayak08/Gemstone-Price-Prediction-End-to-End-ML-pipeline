@@ -5,6 +5,9 @@ seaborn
 flask
 mlflow==2.2.2
 dvc
+ipykernel
+xgboost
+
 
 # dev requirements -
 
