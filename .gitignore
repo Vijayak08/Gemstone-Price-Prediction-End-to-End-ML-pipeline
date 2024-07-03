@@ -126,12 +126,12 @@ get-pip.py
 
 # Environments
 .env
-.testvenv
+.venv
 env/
-testvenv/
+venv/
 ENV/
 env.bak/
-testvenv.bak/
+venv.bak/
 
 # Spyder project settings
 .spyderproject
