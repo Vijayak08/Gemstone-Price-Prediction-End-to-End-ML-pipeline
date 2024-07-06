@@ -3,8 +3,8 @@ import os
 import sys
 import pandas as pd
 from exception.exceptiontests.unit.exception import customexception
-from src.logger.logging import logging
-from src.utils import load_object
+from logger.logging import logging
+from utils.utils import load_object
 
 
 class PredictPipeline:
@@ -51,6 +51,8 @@ class CustomData:
         self.cut = cut
         self.color = color
         self.clarity = clarity
+
+        
             
     def get_data_as_dataframe(self):
         try:
@@ -71,3 +73,5 @@ class CustomData:
         except Exception as e:
             logging.info('Exception Occured in prediction pipeline')
             raise customexception(e,sys)
+
+
